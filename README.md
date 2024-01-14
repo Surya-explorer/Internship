@@ -1,5 +1,8 @@
 **Explore Trend**
-Explore Trend is a web application that provides a platform for discovering popular video reels and trending reel songs. The application is designed to create an immersive experience for users, allowing them to explore and enjoy a curated selection of engaging content.
+Explore Trend is a web application that
+provides a platform for discovering popular video reels and trending reel songs. 
+The application is designed to create an immersive experience for users,
+allowing them to explore and enjoy a curated selection of engaging content.
 
 **Features**
 Video Reels: Watch a collection of popular video reels.
