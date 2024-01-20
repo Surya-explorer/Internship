@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 4 - Multi-Color Website</title>
+    <style>
+        :root {
+            --primary-bg: #00adb5;
+            --secondary-bg: #393e46;
+            --text-color: #eeeeee;
+            --navbar-colors: #ff2e63, #ff8a3d, #4ea5d9, #b4f6bb;
+            --gradient-bg: #ff9a9e, #fad0c4; /* Two attractive colors for the background gradient */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgb(131, 247, 233) , rgb(197, 168, 252));
+            font-family: 'Arial', sans-serif;
+            color: var(--text-color);
+        }
+
+        .navbar {
+            background: linear-gradient(to right, var(--navbar-colors));
+            color: var(--text-color);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: var(--text-color);
+            color: var(--primary-bg);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
